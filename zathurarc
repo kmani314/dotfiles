@@ -1,0 +1,41 @@
+# zathurarc material
+
+set font                        "Iosevka Term 10"
+set default-bg                  "#263238" #00
+set default-fg                  "#EEFFFF" #01
+
+set statusbar-fg                "#EEFFFF" #04
+set statusbar-bg                "#314549" #01
+
+set inputbar-bg                 "#263238" #00 currently not used
+set inputbar-fg                 "#EEFFFF" #02
+
+set notification-error-bg       "#263238" #08
+set notification-error-fg       "#F07178" #00
+
+set notification-warning-bg     "#263238" #08
+set notification-warning-fg     "#FFCB6B" #00
+
+set highlight-color             "#F4BF75" #0A
+set highlight-active-color      "#6A9FB5" #0D
+
+set completion-highlight-fg     "#82AAFF" #02
+set completion-highlight-bg     "#314549" #0C
+
+set completion-bg               "#263238" #02
+set completion-fg               "#EEFFFF" #0C
+
+set notification-bg             "#263238" #0B
+set notification-fg             "#C3E88D" #00
+
+# set recolor-lightcolor          "#314549" #00
+# set recolor-darkcolor           "#546E7A" #06
+# set recolor                     "true"
+
+# setting recolor-keep true will keep any color your pdf has.
+# if it is false, it'll just be black and white
+set recolor-keephue             "true"
+set show-recent 1
+# Rest of your configs go here:
+set selection-clipboard clipboard
+map <C-i> recolor
